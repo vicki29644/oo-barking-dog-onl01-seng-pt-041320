@@ -1,5 +1,5 @@
  class Dog 
- fido = Dog.new
+ @fido = Dog.new
  fido.name = Fido  
 end
   
@@ -9,7 +9,7 @@ end
   end
   
   def_bark
-  fido.bark
+  @fido.bark
 puts "woof!"
 end
 end
