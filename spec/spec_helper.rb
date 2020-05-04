@@ -6,5 +6,6 @@ require_relative '../lib/dog'
 #
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
 RSpec.configure do |config|
+require_relative
 
 end
